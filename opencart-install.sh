@@ -1,5 +1,6 @@
 #! /bin/bash
 
+# Author: Ihor Sokorchuk, ihor.sokorchuk@nure.ua
 
 trap 'echo "$BASH_COMMAND";echo -n "# ";read' DEBUG
 

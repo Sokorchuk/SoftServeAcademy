@@ -1,12 +1,12 @@
 #! /bin/bash
 
+# Author: Ihor Sokorchuk, ihor.sokorchuk@nure.ua
+
 username='opencart'
 password='gthtvjuf'
 dbname='opencartdb'
 
-# mysql -u ${user} -p 
-
-cat <<SQL_CODE
+mysql -u ${user} -p <<SQL_CODE
 
 CREATE DATABASE ${dbname}
 

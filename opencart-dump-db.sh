@@ -1,4 +1,5 @@
 #! /bin/bash
+
 # Author: Ihor Sokorchuk, ihor.sokorchuk@nure.ua
 
 dbuser='root'
