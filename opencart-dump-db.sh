@@ -1,10 +1,8 @@
 #! /bin/bash
 
-# Author: Ihor Sokorchuk, ihor.sokorchuk@nure.ua
-
 dbuser='root'
-dbpass='gthtvjuf'
-dbname='opencartdb'
+dbpass='Lv-2022DevOps'
+dbname='opencart'
 
 dumpfile="${dbname}-backup-$(date -u +%Y%m%d%H%M%S).sql"
 
