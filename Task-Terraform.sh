@@ -95,3 +95,5 @@ read -p 'Destroy VMs [y/N]: '
 [ "$REPLY" = 'y' ] && terraform destroy
 
 popd
+
+# EOF
